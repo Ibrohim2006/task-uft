@@ -1,3 +1,6 @@
-from django.shortcuts import render
+from django.urls import path
+from .views import AboutView
 
-urlpatterns = []
+urlpatterns = [
+    path('', AboutView.as_view({'get': 'about_view'}), name='about'),
+]

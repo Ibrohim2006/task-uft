@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'contact',
     'portfolio',
     'service',
+    'home',
     # Installed apps
     'rest_framework',
     'drf_yasg',
