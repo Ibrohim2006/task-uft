@@ -45,6 +45,7 @@ urlpatterns += i18n_patterns(
     path('api/v1/portfolio/', include('portfolio.urls')),
     path('api/v1/about/', include('about.urls')),
     path('api/v1/comment/', include('comment.urls')),
+    path('api/v1/home/', include('home.urls')),
 )
 
 if settings.DEBUG:
