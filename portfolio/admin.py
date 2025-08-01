@@ -12,6 +12,3 @@ class PortfolioAdmin(TranslatableAdmin):
 
     def translated_description(self, obj):
         return obj.safe_translation_getter('description', any_language=True)
-
-    translated_name.short_description = 'Name'
-    translated_description.short_description = 'Description'
